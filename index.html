@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="/styles/st.css">
+  <link rel="stylesheet" type="text/css" href="/styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="/styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/fontsnew+banner.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down-o.css' rel='stylesheet'>
+
+
+
+
+  <title>My Photography Website</title>
+</head>
+<body>
+  <section class="hero-banner">
+    <!-- Remove and add hero banner HTML -->
+    <div class="remove-assignment-content">
+      <h1>Welcome to My Photography Blog!</h1>
+        <p>Explore the world with me, as I take photos wherever, whenever!</p>
+    </div>
+  </section>
+  <section class="content-container">
+    <!-- Remove and add content HTML -->
+    <div class="remove-assignment-content">
+     
+        <div class="container">
+            <h2>Discover some of my insight into photography!</h2>
+            <p>Here, on my blog, you will find an array of photos I've taken.</p>
+            <p>These are some of my favourite photos from last year!</p>
+            <img src="styles/assets/Night Landscape.jpg" alt="Content Image">
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    </div>
+  </section>
+    <link rel="stylesheet" type="text/css" href="styles/css icon.css">
+
+<div class="close-icon">   
+    <i class="fa-solid fa-arrows-spin" style="margin: 1px;"></i>
+    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+    <script src="https://kit.fontawesome.com/547695b37c.js" crossorigin="anonymous"></script>
+    
+    
+    <h2> Send feedback!</h2> 
+
+
+  <figure class="image is-128x128">
+    <img class="is-rounded" src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/128x128/plain/camera.png">
+    
+  </figure>
+
+
+  <section class="container accordion-container">
+    <!-- Remove and add accordion HTML -->
+    <div class="remove-assignment-content">
+     
+      <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Accordion</title>
+<style>
+  .accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-btn {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: #e09494;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-content {
+    padding: 10px 0;
+    display: none;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<div class="accordion">
+  <div class="accordion-item">
+    <button class="accordion-btn">Question 1: Do I enjoy photography?</button>
+    <div class="accordion-content">
+      <p>Yes! I'm not a professional, more of an amateur at photography, but I find it very fun, and enjoyable as a pasttime/hobby.</p>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <button class="accordion-btn">Question 2: What equipment do I use?</button>
+    <div class="accordion-content">
+      <p>Currently, I don't have enough money for an actual camera, so I use my phone camera. The phone model is: "Samsung S22+".</p>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <button class="accordion-btn">Question 3: Do I sell my photos?</button>
+    <div class="accordion-content">
+      <p>Nope, my photos are no where near good enough to sell for money, its mostly just a recreational activity</p>
+    </div>
+  </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    accordionItems.forEach(function(item) {
+      item.addEventListener('click', function() {
+        this.classList.toggle('active');
+        const content = this.querySelector('.accordion-content');
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+        } else {
+          content.style.display = 'block';
+        }
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
+    </div>
+  </section>
+
+
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Photos I took this past year</h2>
+  
+  <h4>Discover some of the sights that I've seen in this last year!</h4>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Cool Lights.jpg">
+        <img src="styles/assets/Cool Lights.jpg" alt="Cool Lights!" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a cool little artpiece I saw downtown at night
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Museum.jpg">
+        <img src="styles/assets/Museum.jpg" alt="Museum!!" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a picture I took in Rome at a museum
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/MCDONALDS.jpg">
+        <img src="styles/assets/MCDONALDS.jpg" alt="Mcdonalds!!" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a picture I took at night of a sign
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Night Landscape.jpg">
+        <img src="styles/assets/Night Landscape.jpg" alt="Night Landscape" width="600" height="400">
+      </a>
+        </h4>
+        <p class="paragraph">
+            This was a picture I took at night, where I walk my dog
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Foggy Weather.jpg">
+        <img src="styles/assets/Foggy Weather.jpg" alt="Foggy Weather!" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a picture I took early in the morning
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Stairwell.jpg">
+        <img src="styles/assets/Stairwell.jpg" alt="Stairwell!" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a picture of a parkade stairwell
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Snowy Weather.jpg">
+        <img src="styles/assets/Snowy Weather.jpg" alt="Snow Weather" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a picture I took at the start of winter
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="styles/assets/Mall Sky.jpg">
+        <img src="styles/assets/Mall Sky.jpg" alt="Mall Sky" width="600" height="400">
+      </a>
+    </h4>
+    <p class="paragraph">
+        This was a picture I took in Rome at a mall
+    </div>
+  </div>
+
+
+  <div class="clearfix"></div>
+  
+  <div style="padding:6px;">
+    <p>These are just some of the many photos I took this past year!! </p>
+    <p>I'm still improving and furnishing my photography skills, while also learning new techniques and skills</p>
+  </div>
+  
+  </body>
+  </html>
+  
+  
+  
+
+
+
+
+
+</body>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/rSq3gD-aiU4?si=tWD8doXWy482Jlb5" frameborder="0" allowfullscreen></iframe>
+</div>
+<section class="footer-container">
+    <!-- Remove and add footer HTML -->
+    <div class="remove-assignment-content">
+      <h1>Footer</h1>
+      <div class="footer-content">
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <p class="copyright">
+                  &copy; <span id="2024"></span> Brandon Chen. All rights reserved.
+              </p>
+            </ul>
+        </div>
+        <div id="map" class="map"></div>
+    </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33754.41672362644!2d-114.12245071337651!3d51.03809229364394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe6a81e4037%3A0xdd6950227fcb4eea!2sCentury%20Gardens!5e0!3m2!1sen!2sca!4v1710970780518!5m2!1sen!2sca" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </ul>
+      </div>
+  </div>
+    </section>
+</html>
