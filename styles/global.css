@@ -1,8 +1,9 @@
 /* Sections */
 .container {
     margin: 3rem auto;
-    max-width: 75rem;
-    padding: 3rem 1.5rem;
+    max-width: 200%;
+    max-height: 200%;
+    padding: 25%;
     position: relative;
   }
   

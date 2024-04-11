@@ -21,3 +21,17 @@
 .hero-banner p {
   font-size: 1.5em;
 }
+
+.image-section .container {
+  max-width: 2000px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.image-section .card {
+  text-align: center;
+
+}
+
